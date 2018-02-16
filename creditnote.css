@@ -1,0 +1,177 @@
+img#headerLogo {
+        width: 150px;
+        height:145px;
+	float: left;
+}
+h2 {
+padding:0px 0px 0px 600px;
+}
+
+nav.horizontalbar {
+    background-color: #ffb6c1;
+    margin: 10px 10px 10px 160px;
+}
+nav.horizontalbar ul {
+       
+	margin: 0px;
+	list-style-type: none;
+	padding: 5px 5px 5px 0px;
+}
+nav.horizontalbar ul li {
+        
+	display: inline;
+	padding: 5px 15px 10px 30px;
+}
+
+nav.horizontalbar ul li a:link, nav.horizontalbar ul li a:visited {
+	color: #954b4b;
+	border-bottom: none;
+	font-weight: bold;
+}
+     
+nav.horizontalbar ul li selected {
+	background-color: #c8b99c;
+}
+
+
+nav.verticalbar ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 150px;
+    background-color: #ffb6c1;
+}
+
+nav.verticalbar li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+nav.verticalbar li a:hover {
+    background-color: #555;
+    color: white;
+}
+/* buttons in newselftracking page*/
+.button {
+    background-color: white; /* Green */
+    border: 2px solid #e7e7e7;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width:100%;
+}
+.button:hover{
+background-color: #e7e7e7;
+}
+
+/*mouse over dropdown for profile*/
+.dropbtn {
+   background-color: pink;
+   color:brown;
+   padding: 10px;
+   font-size: 16px;
+   border: none;
+   cursor: pointer;
+   font-weight: bold;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 120px;
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+background-color: #f1f1f1;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/*css style for alert and message pages*/
+
+.alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+
+
+/*style for indexpage*/
+
+.dropbutton {
+   background-color: white;
+   color:brown;
+   padding: 10px;
+   font-size: 16px;
+   border: 2px solid #e7e7e7;
+   cursor: pointer;
+   font-weight: bold;
+}
+.dropdown-menu {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-list {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 120px;
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-list a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-list a:hover {
+background-color: #f1f1f1;
+
+}
+
+.dropdown-menu:hover .dropdown-list {
+    display: block;
+}
